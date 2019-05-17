@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Open Sans";    
+}
+
+/* -------------------------------------CAPA PRINCIPAL--------------------------------- */
+#capa{
+    background-image: url(imgs/evan-dvorkin-1463596-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 300px 0 300px 0;
+}
+#capa h1{
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    /* text-transform: uppercase; */
+}
+#capa p{
+    font-family: 'Kanit';
+    font-size: 2rem;
+    color: white;
+}
+
+/* -------------------------------------NAVBAR----------------------------------------- */
+#nav{
+    font-family: 'Kanit';    
+}
+.navColor{
+    background: white;
+    transition: background 500ms;
+}
+#nav .navbar-brand{
+    color: black;
+    box-shadow: none;
+}
+#nav .btn{
+    background: none;
+    font-family: 'Kanit';
+    border: 2px transparent solid;
+    padding: 10px;
+    box-shadow: none;    
+}
+
+/* -------------------------------------CAPA2----------------------------------------- */
+#capa2{
+    background: rgb(243, 243, 243);
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 30px 20% 30px 20%;
+}
+#capa2 i{
+    color: rgb(94, 50, 50);
+    font-size: 1.8rem
+}
+
+/* -------------------------------------SERVIÇOS--------------------------------------- */
+#servicos h1{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+#servicos{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#servicos .row{
+    margin-top: 80px; 
+}
+.row h1{
+    font-size: 1.7rem;
+}
+.row p{
+    text-align: center;
+    font-family: 'Kanit';
+}
+
+/* -------------------------------------TRABALHOS--------------------------------------- */
+#trabalhos h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+#trabalhos{
+    padding-top: 150px;
+    background: linear-gradient(180deg, rgb(94, 50, 50) 400px, white 400px);
+    margin: 0;    
+}
+#trabalhos .row{
+    margin: 40px 10% 0 10%;
+}
+
+/* -------------------------------------TIME------------------------------------------ */
+#time{
+    margin-top: 150px;
+}
+#time h1{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+#time p{
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 1.3rem;
+    padding: 0 10% 0 10%;
+}
+#time .row{
+    margin-top: 80px;
+}
+.recorte{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;    
+}
+
+/* -------------------------------------CONTATO----------------------------------------- */
+#contato{
+    margin-top: 150px;
+}
+#contato h1{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+#contato p{
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 1.3rem;
+    padding: 0 10% 0 10%;
+}
+
+/* -------------------------------------RODAPÉ----------------------------------------- */
+#rodape{
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'Kanit';
+    margin: 100px 0 0 0;
+    padding-top: 50px;
+}
+#rodape h1{
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin: 0;
+}
+#rodape p{
+    font-weight: 200;
+    font-size: 0.7rem;
+    margin: 50px 0 0 0;
+}
+
+/* -------------------------------------CLASSES GERAIS--------------------------------- */
+.faleC{
+    background: none;
+    font-family: 'Kanit';
+    border: 2px rgb(94, 50, 50) solid;
+    padding: 10px;
+}
+
+/* -------------------------------------MODAL------------------------------------------- */
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(94, 50, 50);
+    color: white;
+    text-align: center;
+}
+
+#myModal{
+    margin: 0 25%;
+    padding: 15px;
+}
+
+#closeBtn{
+    float: right;
+    color: white;
+    background: transparent;
+    border: transparent;
+}
+
+.inp{
+    background: rgb(94, 50, 50);
+    border: 2px solid white;
+    border-radius: 1%;
+    color: white;
+}
+
+#send{
+    background: white;
+    border: 2px solid white;
+    color: rgb(94, 50, 50);
+    font-weight: 700;
+}
+
+textarea{
+    height: 200px;
+}
